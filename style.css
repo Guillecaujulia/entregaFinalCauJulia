@@ -474,7 +474,7 @@ footer {
   padding: 10px;
 }
 
-.redes a .linkedin {
+.redes a .instagram {
   display: flex;
   justify-content: flex-end;
   width: 24px;
@@ -482,6 +482,6 @@ footer {
   margin: 0 10px;
 }
 
-.dark-mode .linkedin {
+.dark-mode .instagram {
   filter: invert(1);
 }
