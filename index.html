@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./IMG/LOGO.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Comparador de Productos</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="switch">
+        <img
+          src="IMG/1.png"
+          class="logo"
+          alt="Logotipo de la página comparadora de productos"
+        />
+        <input type="checkbox" class="darkModeToggle" id="darkModeToggle" />
+        <label
+          for="darkModeToggle"
+          class="button"
+          aria-label="Activar/Desactivar modo oscuro"
+        ></label>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="text-center">Comparador de Productos</h1>
+
+      <section class="search-section">
+        <div class="contendor">
+          <div class="buscador">
+            <input
+              type="text"
+              class="buscar"
+              id="searchQuery"
+              placeholder="Buscar productos..."
+            />
+            <button id="buscarBtn" class="botones">Buscar</button>
+          </div>
+        </div>
+
+        <div id="searchResults" class="container"></div>
+      </section>
+
+      <section class="products-section">
+        <h2 class="text-center">Productos Agregados:</h2>
+
+        <div id="productsList" class="container"></div>
+
+        <div class="cont-boton">
+          <button id="compareButtonAvanzado" class="botones">
+            Comparar Avanzado
+          </button>
+        </div>
+      </section>
+
+      <section class="comparison-section">
+        <h2 class="text-center">Resultados de la Comparación</h2>
+        <div id="comparisonResults" class="comparison-container"></div>
+      </section>
+    </main>
+
+    <footer>
+      <small>
+        <p>
+          &copy; 2024 Comparador de Productos. Todos los derechos reservados.
+        </p>
+      </small>
+
+      <div class="redes">
+        <a href="https://www.instagram.com/guillecaujulia/" target="_blank">
+          <img src="./IMG/INSTAGRAM.png" alt="LinkedIn" class="linkedin" />
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
